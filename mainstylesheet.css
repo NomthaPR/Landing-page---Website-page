@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#Mainpage{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 15em 0;
+    /*background-color: (#222);*/
+    background-image: url(pictures/makeup.jpg), 
+    radial-gradient(#cccccc, #444343);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 260px;
+    padding-left: 10px;
+}
+
+#Mainpage .buttonpage{
+    display: inline-block;
+    padding: .5em 1.25em;
+    text-decoration: none;
+    color: rgb(148, 3, 129);
+    background: var(--clr-accent rgb(255, 157, 230));
+    color: var(--clr-accent rgb(255, 253, 255) );
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.125em;
+    border-radius: .25em;
+    transition: transform 250ms ease-in-out;
+    opacity: 250ms linear;
+}
+
+
+.footer{
+    display: flex;
+    width: 100%;
+    height: 20%;
+    font-size: 16px;
+    text-align: center;
+    background-color: rgb(241, 213, 236);
+    color: rgb(255, 255, 255);
+}
+
+.footer .Details{
+    width: 600px;
+    height: 250px;
+    font-size: 12;
+    text-align: center;
+    justify-content: space-between;
+    color: rgb(37, 5, 36);
+    padding: 50px;
+
+}
+
+.copyright h5{
+    color: rgb(37, 5, 36);
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 50px;
+    margin-top: 30px;
+    
+}
+
+.Icons{
+    padding-left: 6%;
+    padding-bottom: 10%;
+}
+
+.Icons i{
+    font-size: 30px;
+    font-weight: bold;
+    padding-inline: 1%;
+    background-color: rgb(255, 232, 190);
+    color: rgb(0, 0, 0);
+    border-radius: 15%;
+}
