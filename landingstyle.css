@@ -6,8 +6,12 @@
 }
 
 body{
-    background-image: url(makeup.jpg);
+    background-image: url(pictures/makeup.jpg),
+    radial-gradient(#b4b1b1, #757474);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
     background-repeat: no-repeat;
+    background-position: center center;
     background-size: cover;
     transition: 0.5s;
 }
@@ -18,18 +22,17 @@ body{
 
 
 .start span{
-    color: rgb(102, 22, 82);
+    color: rgb(73, 8, 57);
 }
 
 .clients img{
-    width: 380px;
+    width: 360px;
     height: 380px;
     text-align: center;
     border-radius: 10px;
     justify-content: space-between;
-    margin-left: 100px;
     margin-top: 35px;
-    margin-right: 40px;
+    margin-right: 20px;
 }
 
 .clients{
@@ -37,17 +40,35 @@ body{
     font-size: 17px;
     text-align: center;
     justify-content: space-between;
+    margin-left: 10px;
 }
 
-.natural img{
-    width: 380px;
+.secondmain{
+    display: flex;
+    font-size: 17px;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.secondmain img{
+    width: 360px;
     height: 380px;
     text-align: center;
     border-radius: 10px;
     justify-content: space-between;
-    margin-left: 650px;
-    margin-top: 50px;
+    margin-top: 35px;
+    margin-right: 20px;
 }
+
+.customer img{
+    width: 380px;
+    height: 380px;
+    border-radius: 10px;
+    justify-content: space-between;
+    margin-left: 1090px;
+}
+
 
 .View{
     font-weight: bold;

@@ -5,6 +5,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*------------------------------------the section which has the class name of secbar-------------*/
 .secbar{
     width: 100%;
     position: relative;
@@ -13,7 +14,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url(makeup-brush.jpg);
+    background-image: url(pictures/makeup-brush.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     transition: 0.5s;
@@ -51,6 +52,7 @@ header ul li a{
 header :hover{
     color: rgb(196, 8, 186);
 }
+/*----------------------------------------------This is were my navigation style ends-----------------------------*/
 
 .logo{
     max-width: 80px;
@@ -58,7 +60,7 @@ header :hover{
 
     
 }
-
+/*-----------------------------------------The textbos is the class name of the contect that i put on the page---*/
 .textbox{
     color: rgb(58, 30, 56);
     font-weight: bold;
@@ -71,6 +73,7 @@ header :hover{
     color: rgb(80, 18, 80);
 }
 
+/*------the container of the textbox*/
 .Container{
     position: relative;
     width: 100%;
@@ -84,7 +87,10 @@ header :hover{
     position: relative;
     max-width: 600px;
 }
+/*-----------were the container style ends--------*/
 
+
+/*----------the side makeup picture--------------*/
 .sidepicture{
     padding-top: 200px;
 
@@ -97,33 +103,9 @@ header :hover{
     border-radius: 50%;
 }
 
-.View{
-    font-weight: bold;
-    padding-top: 20px;
-}
 
-.View a{
-    text-decoration: none;
-    color: rgb(82, 2, 68);
-    text-align: center;
-    font-style: oblique;
-}
-.View :hover{
-    color: rgb(99, 67, 8);
-}
 
-.footer{
-    background-color: rgb(59, 24, 54);
-    color: aliceblue;
-    font-size: 15px;
-    text-align: center;
-}
-
-.footer h5{
-    text-align: left;
-    letter-spacing: 2%;
-}
-
+/*---------------Icons-------------------------*/
 .Icons{
     padding-left: 6%;
     padding-bottom: 10%;
@@ -137,3 +119,69 @@ header :hover{
     color: rgb(0, 0, 0);
     border-radius: 15%;
 }
+
+
+
+/*------------------The button----------------------------------*/
+.active{
+    width: 200px;
+    font-weight: bold;
+    padding-top: 5px;
+    border-width: 0px;
+    margin-top: 15px;
+    background-color: rgb(241, 213, 236);
+    font-style: inherit;
+    border-radius: 5%;
+}
+
+.active a{
+    text-decoration: none;
+    color: rgb(37, 3, 32);
+    font-size: 15px;
+    font-style: unset;
+    font-weight: bold;
+    
+}
+
+.active a:hover{
+    color: rgb(82, 54, 3);
+}
+
+
+
+
+/*---------------the start of the footer------------------*/
+.footer{
+    display: flex;
+    width: 100%;
+    height: 20%;
+    font-size: 16px;
+    text-align: center;
+    background-color: rgb(241, 213, 236);
+}
+
+.footer .Details{
+    width: 600px;
+    height: 250px;
+    font-size: 12;
+    text-align: center;
+    justify-content: space-between;
+    color: rgb(39, 3, 21);
+    padding: 50px;
+
+}
+
+.copyright h5{
+    color: rgb(39, 3, 21);
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 50px;
+    margin-top: 30px;
+    
+}
+
+/*----------------------The end of the footer--------------------*/
+
+
