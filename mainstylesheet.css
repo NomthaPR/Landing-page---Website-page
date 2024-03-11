@@ -12,7 +12,7 @@ body{
     font-size: 20px;
 }
 
-#Mainpage{
+.Mainpage{
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 15em 0;
@@ -29,7 +29,7 @@ body{
     padding-left: 10px;
 }
 
-#Mainpage .buttonpage{
+.Mainpage .buttonpage{
     display: inline-block;
     padding: .5em 1.25em;
     text-decoration: none;
@@ -44,10 +44,19 @@ body{
     opacity: 250ms linear;
 }
 
-.buttonpage :hover{
-    color: rgb(133, 95, 1);
+
+.buttonpage a:hover{
+    color: rgb(99, 67, 8);
+
 }
 
+.buttonpage a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-style: unset;
+    font-weight: bold;
+}
 
 .footer{
     display: flex;

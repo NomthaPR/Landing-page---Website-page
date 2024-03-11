@@ -22,7 +22,7 @@ body{
 
 
 .start span{
-    color: rgb(73, 8, 57);
+    color: rgb(255, 246, 253);
 }
 
 .clients img{
@@ -79,8 +79,9 @@ body{
 .View a{
     text-decoration: none;
  
-    color: rgb(82, 2, 68);
+    color: rgb(255, 255, 255);
     font-style: unset;
+    font-size: 18;
 }
 .View :hover{
     color: rgb(99, 67, 8);
