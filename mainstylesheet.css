@@ -18,7 +18,7 @@ body{
     padding: 15em 0;
     /*background-color: (#222);*/
     background-image: url(pictures/makeup.jpg), 
-    radial-gradient(#6d6c6c, #948c8c);
+    radial-gradient(#a19f9f, #5a5656);
     background-blend-mode: multiply;
     background-attachment: fixed;
     background-repeat: no-repeat;
