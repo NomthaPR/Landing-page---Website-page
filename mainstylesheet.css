@@ -18,7 +18,7 @@ body{
     padding: 15em 0;
     /*background-color: (#222);*/
     background-image: url(pictures/makeup.jpg), 
-    radial-gradient(#cccccc, #444343);
+    radial-gradient(#6d6c6c, #948c8c);
     background-blend-mode: multiply;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -42,6 +42,10 @@ body{
     border-radius: .25em;
     transition: transform 250ms ease-in-out;
     opacity: 250ms linear;
+}
+
+.buttonpage :hover{
+    color: rgb(133, 95, 1);
 }
 
 
